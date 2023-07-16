@@ -45,3 +45,6 @@ htmlcov/
 
 # ruff linter
 .ruff_cache/
+
+# conda folder
+.conda/
