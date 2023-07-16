@@ -20,6 +20,9 @@ def get_mtcars_inputs():
             max=35,
             value=[10, 35],
         ),
+        ui.input_checkbox("somevalue", "Some value", False),
+        ui.input_checkbox("someothervalue", "Some other value", False),
+        ui.input_checkbox("lastvalue", "last value", False),
         ui.tags.hr(),
         ui.tags.section(
             ui.h3("MT Cars Table"),
